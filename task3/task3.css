@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: rgb(219, 238, 132);
+}
+
+.abo{
+    margin-top: 20px;
+    margin-left: 50px;
+    align-items: center;
+    float: left;
+    width: 21vw;
+    
+}
+
+.aboon{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 28vw;
+}
+.full{
+    float:right;
+}
+
+.box{
+    background-color: white;
+    text-align: center;
+    width: 20vw;
+    float: left;
+    margin:20px;
+   border-radius: 10px;
+    border: 2px solid black;
+    height: 27vw;
+}
+
+.text{
+    color: white;
+    margin-top: 0;
+   
+    font-size: 12px;
+    background-color: rgb(83, 215, 224);
+}
+
+.but1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(71, 223, 91);
+    color: white;
+    font-weight: bold;
+}
+
+.but2{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(88, 70, 190);
+    color: white;
+    font-weight: bold;
+}
