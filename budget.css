@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, pink , lightblue);
+   display: flex;
+   height: 8vw;
+}
+
+.text1{
+    float: left;
+    margin-top: -2vw;
+    margin-left: 1.5vw;
+    margin-bottom: 5vw;
+}
+
+.lote{
+    float: right;
+    margin-top: 1.5vw;
+    margin-left: 75vw;
+}
+
+.lote img{
+    float: left;
+    margin-right: 0.5vw;
+    margin-top: 1.7vw;
+}
+
+.lote p{
+    font-size: 20px;
+    float: left;
+}
+
+
+.userdetails{
+    display: flex;
+    background-color: aquamarine;
+   
+}
+
+.budget{
+    margin-left: 10vw;
+    padding: 2vw;
+   border: 1px solid black;
+   margin-top: 2vw;
+   float: left;
+   width: 30vw;
+   height: 18vw;
+}
+
+.expenses{
+  border: 1px solid black;
+  float: left;
+  margin-left: 10vw;
+  padding: 2vw;
+  margin-top: 2vw;
+  width: 30vw;
+  height: 18vw;
+}
+
+span{
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+input{
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 0.7vw;
+}
+
+
+input::placeholder{
+    font-size: 18px;
+    
+}
+
+.show{
+    padding: 1vw;
+    border: 1px solid black;
+  clear: both;
+    width: 78vw;
+    height: 8vw;
+    border-radius: 5px;
+  margin-top: 30vw;
+  margin-left: 10vw;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+}
+
+.details1{
+    font-weight: bold;
+    font-size: 23px;
+    float: left;
+}
+
+.details2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 24vw;
+    width: 10vw;
+    float: left;
+    text-align: center;
+}
+
+.details3{
+    font-weight: bold;
+    font-size: 23px;
+    float: right;
+}
+
+
+
+@media screen and (max-width : 850px) {
+    .budget{
+       padding: 4vw;
+        margin-left: 20%;
+        float: none;
+        width: 55vw;
+        height: 38vw;
+    }
+    .expenses{
+        padding: 4vw;
+        margin-left: 20%;
+        float: none;
+        width: 55vw;
+        height: 38vw;
+    }
+    .navbar{
+       height: 18vw;
+       line-height: 15px;
+      
+    }
+    input{
+        box-sizing: content-box;
+        height: 10vw;
+    }
+
+    .text1{
+        margin-top: 1vw;
+     }
+    button{
+       width: 30vw;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .navbar{
+        height: 20vw;
+        line-height: 13px;
+     }
+
+     .text1{
+        margin-top: -1vw;
+     }
+}
+
+
+
