@@ -96,6 +96,7 @@ function createButton(type, imgSrc, clickHandler) {
 }
 
 function removeExpense(li) {
+  alert("Your entry will be deleted");
   li.remove();
   updateExpenses();
   saveExpenses();

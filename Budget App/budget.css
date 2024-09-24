@@ -1,18 +1,19 @@
 body{
     margin: 0;
+    background-color: #292020;
 }
 
 .navbar{
-    background-image: linear-gradient(to right, pink , lightblue);
+    background-color: #A04747;
    display: flex;
-   height: 8vw;
+   height: 15vh;
 }
 
 .text1{
     float: left;
-    margin-top: -1vw;
     margin-left: 1.5vw;
-    margin-bottom: 5vw;
+    margin-top: -1.5vw;
+    color: white;
 }
 
 .lote{
@@ -41,6 +42,7 @@ flex-direction: row;
 
 
 .budget{
+    background-color: #D8A25E;
     float: left;
     margin-left: 10vw;
     padding: 2vw;
@@ -51,6 +53,8 @@ flex-direction: row;
 }
 
 .expenses{
+    border: 1px solid #EEDF7A;
+    background-color: #D8A25E;
     float: left;
     box-shadow: 2px 2px 6px gray;
   margin-left: 15vw;
@@ -58,9 +62,12 @@ flex-direction: row;
   margin-top: 2vw;
   width: 30vw;
    height: 35vh;
+   
 }
 
 .expenseslist{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     clear: both;
     width: 60vw;
     box-shadow: 2px 2px 6px gray;
@@ -71,14 +78,20 @@ flex-direction: row;
 }
 
 .expenseslist h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     text-align: center;
-    font-size: 35px;
-    background-image: linear-gradient(to right, pink , lightblue);
-    margin-top: 0;
-  padding: 1vw;
+    font-size: 30px;
+   background-color: #EEDF7A;
+    margin-top: -2vw;
+    margin-left: -2vw;
+    margin-right: -2vw;
+  padding: 0.5vw;
 }
 
 .expenseslist li{
+    background-color: #EEDF7A;
+
  list-style-type:none;
  font-size: 23px;
  padding: 1vw;
@@ -96,13 +109,13 @@ span{
 input{
     box-sizing: border-box;
     font-size: 18px;
-    padding: 0.7vw;
+    padding: 0.8vw;
+    height: 20vh;
 }
 
 
 input::placeholder{
-    font-size: 18px;
-    
+    font-size: 15px;
 }
 
 .show{
@@ -114,86 +127,97 @@ input::placeholder{
 }
 
 .details1{
+    background-color: #EEDF7A;
+   text-align: center;
     margin: 2vw;
-    height: 15vh;
+    height: 18vh;
     width: 22vw;
     box-shadow: 2px 2px 6px gray;
 }
 
 
-.deatils1 img{
+.details1 img{
     float: left;
-    margin-top: 3vw;
-    width: 2vw;
-    height: 5vh;
+   margin-left: 2vw;
+   margin-top: 2vw;
+    width: 3vw;
+    height: 7vh;
 }
 
 
 .details1 p{
-    float: right;
-     margin-right: 5vw;
-     font-size: 17px;
-     font-weight: bold;
-     margin-top: 1vw;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .details2{
-    margin: 2vw;
-    height: 15vh;
-    width: 22vw;
-    box-shadow: 2px 2px 6px gray;
-}
+    background-color: #EEDF7A;
+    text-align: center;
+     margin: 2vw;
+     height: 18vh;
+     width: 22vw;
+     box-shadow: 2px 2px 6px gray;
+ }
+ 
+ 
+ .details2 img{
+     float: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+     width: 3vw;
+     height: 7vh;
+ }
+ 
+ 
+ .details2 p{
+     font-size: 20px;
+     font-weight: bold;
+ }
 
-.deatils2 img{
-    float: left;
-    margin-top: 3vw;
-}
-
-.details2 p{
-    float: right;
-    margin-right: 6vw;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 1vw;
-}
-
-.details3{
-    margin: 2vw;
-    height: 15vh;
-    width: 22vw;
-    box-shadow: 2px 2px 6px gray;
-}
-
-.deatils3 img{
-    float: left;
-    margin-top: 3vw;
-}
-
-.details3 p{
-    font-weight: bold;
-    float: right;
-    margin-right: 7vw;
-    font-size: 20px;
-    margin-top: 1vw;
-}
+ .details3{
+    background-color: #EEDF7A;
+    text-align: center;
+     margin: 2vw;
+     height: 18vh;
+     width: 22vw;
+     box-shadow: 2px 2px 6px gray;
+ }
+ 
+ 
+ .details3 img{
+     float: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+     width: 4vw;
+     height: 8vh;
+ }
+ 
+ 
+ .details3 p{
+     font-size: 20px;
+     font-weight: bold;
+ }
 
 
 .close{
+    cursor: pointer;
     float: right;  
     margin-right: 1vw;
-    background-color: white;
+    background-color: #EEDF7A;
     border: none;
 }
 
 .jsimgclose{
+    cursor: pointer;
     width: 23px;
   
 }
 
 .addbut{
+    background-color: #A04747;
+    cursor: pointer;
     padding: 1vw;  
     border-radius: 5px; 
-    background-color: rgb(56, 56, 221); 
    border: none;
    font-size: 16px;
    font-weight: bold;
@@ -201,31 +225,32 @@ input::placeholder{
 }
 
 .jsimgedit{
+    cursor: pointer;
     width: 23px;
 }
 
 .edit{
+    cursor: pointer;
     float: right;
-    background-color: white;
+    background-color: #EEDF7A;
     border: none;
 }
 
 .inp{
+    box-shadow: 2px 2px 6px gray;
+    border: none;
     height: 3vw; 
     width: 100%; 
     border-radius: 5px;
 }
 
-.ss{
-    margin-left: 10vw; 
-    font-size: 24px; 
-}
+
 
 
 
 @media only screen and (max-width:650px) {
     .navbar{
-       height: 15vw;
+       height: 18vw;
 
     }
 
@@ -250,7 +275,7 @@ input::placeholder{
     }
 
     .details1 p{
-        font-size: 11.5px;
+        font-size: 14px;
     }
 
     #id{
@@ -283,10 +308,6 @@ input::placeholder{
     font-size: 15px;
 }
 
-.ss{
-    margin-left: 7vw; 
-    font-size: 20px; 
-}
 
 .budget{
     float: none;
@@ -316,16 +337,16 @@ input::placeholder{
 .inp{
     height: 6vw;
 }
-.ss{
-    margin-left: 7vw; 
-    font-size: 22px; 
+
+.addbut{
+    font-size: 10px;
 }
 
 }
 
 @media only screen and (min-width:600px) and (max-width:800px){
    .navbar{
-    height: 15vw;
+    height: 18vw;
    }
 
    .lote{
@@ -348,7 +369,7 @@ input::placeholder{
 }
 
 .details1 p{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #id{
@@ -365,7 +386,7 @@ input::placeholder{
 }
 
 .details2 p{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .details3{
@@ -378,7 +399,7 @@ width: 40px;
 }
 
 .details3 p{
-font-size: 17px;
+font-size: 20px;
 }
 
 .budget{
@@ -410,11 +431,9 @@ font-size: 17px;
 .inp{
     height: 6vw;
 }
-.ss{
-    margin-left:10vw; 
-    font-size: 25px; 
-}
+
+
+
 
 }
 
-@media only screen and (min-width:800px) and (max-width:1024px)
