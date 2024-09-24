@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="budget.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+<script src="budget.js" defer></script>
+</head>
+<body>
+
+<!--navbar-->
+    <div class="navbar">
+        <div class="text1">
+            <p style="font-size: 40px; font-family: Caveat;">BudgetBuddy</p>
+        </div>
+
+        
+        <div class="lote">
+            <img src="people.png" width="20">
+            <p id="demo">
+        </div>
+    </div>
+
+<!--show-->
+    <div class="show">
+
+        <div class="details1">
+            <img src="budget.png">
+            <p>Total Budget</p>
+            <div class="ss" id="showbudget">0</div>
+        </div>
+    
+        <div class="details2">
+            <img src="expenses.png">
+            <p>Expenses</p>
+            <div class="ss" id="showexpense" ></div>
+        </div>
+    
+        <div class="details3">
+            <img src="balance.png">
+            <p>Balance</p>
+            <div class="ss" id="showbalance">65</div>
+        </div>
+       </div>
+    
+
+    <!--user enter details-->
+   <div class="userdeatils">
+    <div class="budget">
+        
+        <label for="budget" style="font-size: 30px;  ">Budget</label><br><br>
+        <input class="inp" id="totalbudget" type="text" id="budget" name="budget" placeholder="Enter Your Budget"><br><br><br>
+        <button onclick="showBudget();" class="addbut" type="button" ><span>Set Budget</span></button>
+        <button onclick="reset();" class="addbut clearbut" type="button" style="margin-left: 1vw;" ><span>Clear</span></button>
+
+    </div>
+
+    <div class="expenses">
+        <label for="budget" style="font-size: 30px; ">Expenses</label><br><br>
+        <input class="inp" type="text" id="expensename" name="budget" placeholder="Enter Expense Name" ><br><br>
+        <input class="inp" id="expenses" type="text" id="budget" name="budget" placeholder="Enter Expense Value" ><br><br><br>
+
+        <button  class="addbut" id="add" onclick="showExpense()" type="button" ><span>Add Amount</span></button>
+    </div>
+    
+   </div>
+
+    <!--expenses list-->
+    <div class="expenseslist">
+        <h2>Expenses List</h2>
+        <ul id="UL">
+           
+        </ul>
+    </div>
+  
+   
+</body>
+</html>

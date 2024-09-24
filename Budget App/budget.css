@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, pink , lightblue);
+   display: flex;
+   height: 8vw;
+}
+
+.text1{
+    float: left;
+    margin-top: -2vw;
+    margin-left: 1.5vw;
+    margin-bottom: 5vw;
+}
+
+.lote{
+    float: right;
+    margin-top: 1.5vw;
+    margin-left: 75vw;
+}
+
+.lote img{
+    float: left;
+    margin-right: 0.5vw;
+    margin-top: 1.7vw;
+}
+
+.lote p{
+    font-size: 20px;
+    float: left;
+}
+
+
+.userdetails{
+    display: flex;
+flex-direction: row;
+}
+
+
+
+.budget{
+    float: left;
+    margin-left: 10vw;
+    padding: 2vw;
+    box-shadow: 2px 2px 6px gray;
+   margin-top: 2vw;
+   width: 30vw;
+   height: 35vh;
+}
+
+.expenses{
+    float: left;
+    box-shadow: 2px 2px 6px gray;
+  margin-left: 15vw;
+  padding: 2vw;
+  margin-top: 2vw;
+  width: 30vw;
+   height: 35vh;
+}
+
+.expenseslist{
+    clear: both;
+    width: 60vw;
+    box-shadow: 2px 2px 6px gray;
+ margin-top: 60vh;
+    padding: 2vw;
+    margin-left: 20%;
+    margin-bottom: 10vw;
+}
+
+.expenseslist h2{
+    text-align: center;
+    font-size: 35px;
+    background-image: linear-gradient(to right, pink , lightblue);
+    margin-top: 0;
+  padding: 1vw;
+}
+
+.expenseslist li{
+ list-style-type:none;
+ font-size: 23px;
+ padding: 1vw;
+ width:80% ;
+ box-shadow: 2px 2px 6px gray;
+ margin: 2vw;
+}
+
+span{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+input{
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 0.7vw;
+}
+
+
+input::placeholder{
+    font-size: 18px;
+    
+}
+
+.show{
+    clear:both;
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+    margin-left: 10vw;
+}
+
+.details1{
+    margin: 2vw;
+    height: 15vh;
+    width: 22vw;
+    box-shadow: 2px 2px 6px gray;
+}
+
+
+.deatils1 img{
+    float: left;
+    margin-top: 3vw;
+    width: 2vw;
+    height: 5vh;
+}
+
+
+.details1 p{
+    float: right;
+     margin-right: 5vw;
+     font-size: 17px;
+     font-weight: bold;
+     margin-top: 1vw;
+}
+
+.details2{
+    margin: 2vw;
+    height: 15vh;
+    width: 22vw;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.deatils2 img{
+    float: left;
+    margin-top: 3vw;
+}
+
+.details2 p{
+    float: right;
+    margin-right: 6vw;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.details3{
+    margin: 2vw;
+    height: 15vh;
+    width: 22vw;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.deatils3 img{
+    float: left;
+    margin-top: 3vw;
+}
+
+.details3 p{
+    font-weight: bold;
+    float: right;
+    margin-right: 7vw;
+    font-size: 20px;
+    margin-top: 1vw;
+}
+
+
+.close{
+    float: right;  
+    margin-right: 1vw;
+    background-color: white;
+    border: none;
+}
+
+.jsimgclose{
+    width: 23px;
+  
+}
+
+.addbut{
+    padding: 1vw;  
+    border-radius: 5px; 
+    background-color: rgb(56, 56, 221); 
+   border: none;
+   font-size: 16px;
+   font-weight: bold;
+    color: white
+}
+
+.jsimgedit{
+    width: 23px;
+}
+
+.edit{
+    float: right;
+    background-color: white;
+    border: none;
+}
+
+.inp{
+    height: 3vw; 
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.ss{
+    margin-left: 10vw; 
+    font-size: 24px; 
+}
+
+
+
+@media only screen and (max-width:650px) {
+    .navbar{
+       height: 15vw;
+
+    }
+
+    .text1{
+        font-size: -1vw;
+        margin-top: -6vw;
+    }
+
+    .lote{
+        margin-left: 55vw;
+        margin-top: 4vw;
+    }
+
+    .details1{
+        width: 25vw;
+        height: 15vw;
+        
+    }
+
+    .details1 img{
+        width: 30px;
+    }
+
+    .details1 p{
+        font-size: 11.5px;
+    }
+
+    #id{
+        font-size: 15px;
+    }
+
+    .details2{
+        width: 25vw;
+        height: 15vw;
+    }
+
+    .details2 img{
+        width: 30px;
+    }
+
+    .details2 p{
+        font-size: 14px;
+    }
+
+    .details3{
+        width: 25vw;
+        height: 15vw;
+   }
+
+   .details3 img{
+    width: 30px;
+}
+
+.details3 p{
+    font-size: 15px;
+}
+
+.ss{
+    margin-left: 7vw; 
+    font-size: 20px; 
+}
+
+.budget{
+    float: none;
+    width: 50vw;
+    height: 40vw;
+    margin-left: 25%;
+}
+
+
+.expenses{
+    float: none;
+    width: 50vw;
+    height: 40vw;
+    margin-left: 25%;
+}
+
+.expenseslist{
+    margin-top: 5vw;
+    margin-left: 20%;
+}
+
+.expenseslist li{
+    width: 100%;
+    margin-left: -4vw;
+}
+
+.inp{
+    height: 6vw;
+}
+.ss{
+    margin-left: 7vw; 
+    font-size: 22px; 
+}
+
+}
+
+@media only screen and (min-width:600px) and (max-width:800px){
+   .navbar{
+    height: 15vw;
+   }
+
+   .lote{
+      margin-left: 60vw;
+      margin-top: 4vw;
+   }
+
+   .details1{
+    width: 25vw;
+    height: 15vw;
+    margin-left: -20%;
+}
+
+.details1 img{
+    width: 40px;
+}
+
+.show{
+    margin-left: 20%;
+}
+
+.details1 p{
+    font-size: 15px;
+}
+
+#id{
+    font-size: 15px;
+}
+
+.details2{
+    width: 25vw;
+    height: 15vw;
+}
+
+.details2 img{
+    width: 40px;
+}
+
+.details2 p{
+    font-size: 17px;
+}
+
+.details3{
+    width: 25vw;
+    height: 15vw;
+}
+
+.details3 img{
+width: 40px;
+}
+
+.details3 p{
+font-size: 17px;
+}
+
+.budget{
+    float: none;
+    width: 50vw;
+    height: 40vw;
+    margin-left: 20%;
+}
+
+
+
+.expenses{
+    float: none;
+    width: 50vw;
+    height: 40vw;
+    margin-left: 20%;
+}
+
+.expenseslist{
+    margin-top: 5vw;
+    margin-left: 15%;
+}
+
+.expenseslist li{
+    width: 100%;
+    margin-left: -4vw;
+}
+
+.inp{
+    height: 6vw;
+}
+.ss{
+    margin-left:10vw; 
+    font-size: 25px; 
+}
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px)
