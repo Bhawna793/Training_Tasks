@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: #292020;
+    background-image: url('bg.jpeg');
+    background-size: cover
 }
 
 .navbar{
@@ -42,6 +43,7 @@ flex-direction: row;
 
 
 .budget{
+    border-radius: 10px;
     background-color: #D8A25E;
     float: left;
     margin-left: 10vw;
@@ -53,6 +55,8 @@ flex-direction: row;
 }
 
 .expenses{
+    border-radius: 10px;
+
     border: 1px solid #EEDF7A;
     background-color: #D8A25E;
     float: left;
