@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="budget.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+<script src="budget.js" defer></script>
+</head>
+<body>
+
+<!--navbar-->
+    <div class="navbar">
+        <div class="text1">
+            <p style="font-size: 40px; font-family: Caveat;">BudgetBuddy</p>
+            <p style="margin-top: -3vw; font-size: 15px; margin-left: 5px;">Count Your Savings</p>
+        </div>
+
+        
+        
+        <div class="lote">
+           
+            <img src="people.png" width="20">
+            <p id="demo"></p>
+           
+        </div>
+    </div>
+
+    <!--user enter details-->
+   <div class="userdeatils">
+    <div class="budget">
+        <label for="budget" style="font-size: 30px; ">Budget</label><br><br>
+        <input type="text" id="budget" name="budget" placeholder="Enter Your Budget" style="height: 3vw; width: 100%; border-radius: 5px;"><br><br><br>
+        <button type="button" style="padding: 1vw; border-radius: 5px; background-color: rgb(56, 56, 221);"><span>Set Budget</span></button>
+    </div>
+
+    <div class="expenses">
+        <label for="budget" style="font-size: 30px; ">Expenses</label><br><br>
+        <input type="text" id="budget" name="budget" placeholder="Movies" style="height: 3vw; width: 100%; border-radius: 5px;"><br><br>
+        <input type="text" id="budget" name="budget" placeholder="250" style="height: 3vw; width: 100%; border-radius: 5px;"><br><br><br>
+
+        <button type="button" style="padding: 1vw;  border-radius: 5px; background-color: rgb(56, 56, 221);"><span>Check Amount</span></button>
+    </div>
+    
+   </div>
+
+<!--result-->
+   <div class="show">
+    <div class="details1">Total Budget</div>
+    <div class="details2">Expenses</div>
+    <div class="details3">Balance</div>
+   </div>
+
+
+   
+</body>
+</html>
