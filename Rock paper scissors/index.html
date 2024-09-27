@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ROCK, PAPER, SCISSORS</title>
+        <link rel="stylesheet" href="style.css">
+       <script src="rps.js" defer></script>
+    </head>
+
+   <body>
+    <h1 class="h11">ROCK PAPER SCISSORS</h1>
+       <!--scoreboard-->
+       <div class="scoreboard">
+       <div id="user-badge" class="badge">YOU</div>
+       <div id="cpu-badge" class="badge">COMPUTER</div>
+       <span id="us">0</span>:<span id="cs">0</span>
+     </div>
+       
+
+       <!--game-->
+       <div class="game">
+        <div class="compu">
+             <img id="compimg" src="rock.png">
+        </div>
+
+        <div id="resultt" class="result">
+              YOU WIN
+             <!-- <div class="pagain">Play Again</div> -->
+        </div>
+
+        <div class="youu">
+            <img id="usrimg" src="paper.png">
+        </div>
+       </div>
+
+       <!--options-->
+       <div class="options">
+        <img id="img1" src="rock.png">
+        <img id="img2" src="paper.png">
+        <img id="img3" src="scissors.png">
+       </div>
+
+       <!--reset-->
+       <div class="buttons">
+       
+        <div onclick="reset()" id="resett" class="reset">RESET</div>
+       </div>
+ 
+
+   </body>
+</html>
+
+<!-- <div class="score-board"></div>
+    <div id="user-badge" class="badge">COMPUTER</div>
+    <div id="cpu-badge" class="badge">YOU</div>
+    <span id="user-score">0</span>:<span id="cpu-score">0</span>
+  </div> -->

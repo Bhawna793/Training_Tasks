@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(119, 119, 209);
+    text-align: center;
+}
+
+.scoreboard{
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    width: 250px;
+    font-size: 3rem;
+    padding: 30px 10px;
+    position: relative;
+   
+}
+
+#user-badge {
+    position: absolute;
+    right: -33px;
+    top: 36px;
+}
+
+.badge {
+    background: rgb(5, 42, 99);
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+#cpu-badge {
+    position: absolute;
+    left: -90px;
+    bottom: 32px;
+}
+
+
+.h11{
+    font-size: 40px;
+}
+
+
+
+.compboard{
+    width: 14vw;
+    position: relative;
+    background-color: rgb(240, 255, 242);
+    padding: 1vw;
+    right:60px;
+    top: -12.5vw;
+ }
+    
+
+
+.userboard{
+    width: 14vw;
+    position: relative;
+    background-color: rgb(240, 255, 242);
+    padding: 1vw;
+    left:28vw;
+   bottom: 20vw;
+}
+
+
+
+.text1{
+    color: white;
+    font-size: 38px;
+    margin-left: -25px;
+    margin-top: 4vw;
+}
+
+.text2{
+    color: white;
+    font-size: 38px;
+    margin-right: -8vw;
+    margin-top: -13vw;
+}
+
+
+.game{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-top: 8vh;
+   
+}
+
+.compu{
+    padding: 4vw;
+    border: 2vw solid rgb(228, 190, 67);
+border-radius: 50%;
+}
+
+.compu img{
+    width: 10vw;
+}
+
+.youu{
+    
+    padding: 4vw;
+    border: 2vw solid rgb(228, 190, 67);
+border-radius: 50%;
+}
+
+
+.youu img{
+    width: 10vw;
+}
+
+.result{
+    font-size: 4vw;
+    margin: 5vw;
+padding: 3vw;
+
+font-weight: bold;
+text-align: center;
+}
+
+.options{
+    justify-content: center;
+    padding: 2vw;
+    display: flex;
+  
+}
+
+.options img{
+    border: 1vw solid green;
+    border-radius: 50%;
+    padding: 2vw;
+    width: 6vw;
+    margin: 2vw;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 38vw;
+}
+
+.start{
+  margin: 4vw;
+ font-size: 3vw;
+ background-color: blanchedalmond;
+ padding: 1vw;
+ cursor: pointer;
+}
+
+.reset{
+    margin: 4vw;
+    font-size: 3vw;
+    background-color: blanchedalmond;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+/* .pagain{
+    background-color: black;
+    color: white;
+    padding: 0.7vw;
+    margin-top: 1vw;
+    cursor: pointer;
+} */
+
+.temp{
+    width: 10vw;
+}
