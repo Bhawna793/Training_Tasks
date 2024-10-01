@@ -1,3 +1,4 @@
+
 const wordList = [
     {
         word: "guitar",
@@ -284,6 +285,7 @@ Winaudio.setAttribute('src', 'win.wav');
 
 var Lostaudio = document.createElement('audio');
 Lostaudio.setAttribute('src', 'lost.wav');
+
 
 
 function pg(){
