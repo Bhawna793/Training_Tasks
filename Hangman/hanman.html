@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HANGMAN</title>
+        <link rel="stylesheet" href="hangman.css">
+        <script src="hangman.js" defer></script>
+    </head>
+    <body>
+        <div class="hangman">
+              <div class="images">
+                 <h1>HANGMAN</h1>
+                <img id="imgg" src="hangman-0.svg">
+               
+              </div>
+              <div class="content">
+                <div id="hh" class="fillwords">
+                  
+                </div>
+
+                <div class="hint">
+                    <p id="pp" class="hide"></p>
+                </div>
+
+                <div class="ig">
+                    <p>Incorrect guesses : <span id="icg" >0</span>/6</p>
+                </div>
+
+                <div class="alphabets">
+                  <button onclick="Click('A')" id="A" class="a">A</button>
+                  <button onclick="Click('B')" id="B" class="a">B</button>
+                  <button onclick="Click('C')" id="C" class="a">C</button>
+                  <button onclick="Click('D')" id="D" class="a">D</button>
+                  <button onclick="Click('E')" id="E" class="a">E</button>
+                  <button onclick="Click('F')" id="F" class="a">F</button>
+                  <button onclick="Click('G')" id="G" class="a">G</button>
+                  <button onclick="Click('H')" id="H" class="a">H</button>
+                  <button onclick="Click('I')" id="I" class="a">I</button>
+                  <button onclick="Click('J')" id="J" class="a">J</button>
+                  <button onclick="Click('K')" id="K" class="a">K</button>
+                  <button onclick="Click('L')" id="L" class="a">L</button>
+                  <button onclick="Click('M')" id="M" class="a">M</button>
+                  <button onclick="Click('N')" id="N" class="a">N</button>
+                  <button onclick="Click('O')" id="O" class="a">O</button>
+                  <button onclick="Click('P')" id="P" class="a">P</button>
+                  <button onclick="Click('Q')" id="Q" class="a">Q</button>
+                  <button onclick="Click('R')" id="R" class="a">R</button>
+                  <button onclick="Click('S')" id="S" class="a">S</button>
+                  <button onclick="Click('T')" id="T" class="a">T</button>
+                  <button onclick="Click('U')" id="U" class="a">U</button>
+                  <button onclick="Click('V')" id="V" class="a">V</button>
+                  <button onclick="Click('W')" id="W" class="a">W</button>
+                  <button onclick="Click('X')" id="X" class="a">X</button>
+                  <button onclick="Click('Y')" id="Y" class="a">Y</button>
+                  <button onclick="Click('Z')" id="Z" class="a">Z</button>
+                </div>
+
+              </div>
+
+              
+        </div>
+
+        <div onclick="pg()" id="playgame" class="PG"><p id="pgtext">START</p></div>
+
+        <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span onclick="closemodal();pg()" class="close">&times;</span>
+    <img id="modalimg" src="victory.gif">
+    <p id="modalcontent">YOU WIN</p>
+    <button onclick="pg(); closemodal()" id="playgame" class="pg">Play Again</button>
+
+  </div>
+
+</div>
+    </body>
+</html>
